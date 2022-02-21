@@ -1,0 +1,40 @@
+.modalContainer {
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(28, 26, 26, 0.4);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0s;
+    z-index: 100;
+}
+
+.modalContainer.active {
+    transform: scale(1);
+}
+
+.modalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    width: 100vh;
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+.modalContent.active {
+    transform: scale(1);
+}
+
+.buttonModal {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}

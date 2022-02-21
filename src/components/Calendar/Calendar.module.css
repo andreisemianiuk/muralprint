@@ -1,0 +1,16 @@
+.calendarContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: calc(100vh - 178px);
+}
+
+
+@media screen and (max-width: 800px) {
+    .calendarContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

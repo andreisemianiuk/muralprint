@@ -1,0 +1,6 @@
+export const CALENDAR_PATH = '/calendar'
+export const CART_PATH = '/cart'
+export const NOTEBOOK_PATH = '/notebook'
+export const BUSINESS_BOX_PATH = '/business-box'
+export const POSTAL_PATH = '/postal'
+export const PACKAGE_PATH = '/package'

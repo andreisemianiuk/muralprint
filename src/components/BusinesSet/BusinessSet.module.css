@@ -1,0 +1,43 @@
+.stepsContainer {
+    width: 100%;
+}
+
+.stepsWrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.step {
+    font-weight: 900;
+}
+
+.description {
+    white-space: pre-line;
+    margin-bottom: 7px;
+}
+
+.image {
+    width: 800px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1600px){
+    .stepsWrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image {
+        display: none;
+    }
+}

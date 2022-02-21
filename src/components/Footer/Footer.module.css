@@ -1,0 +1,128 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 60px;
+    background-color: #f05;
+    padding: 0 10px;
+}
+
+.aboutCompany {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    white-space: nowrap;
+    color: white;
+}
+
+.priceDownload {
+    font-size: 12px;
+}
+
+.logo {
+    margin-right: 5px;
+}
+
+.companyName {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mural {
+    color: #f3f3f3;
+}
+
+.companyName:hover {
+    cursor: pointer;
+    text-shadow: #949494 1px 0 5px;
+}
+
+.callWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
+    color: white;
+}
+
+.backCall {
+    color: #005d7c;
+}
+
+.backCall:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 840px ) {
+    .aboutCompany {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .priceDownload {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 15px;
+        height: 15px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .backCall {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    .description {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 10px;
+        height: 10px;
+    }
+
+    .priceDownload {
+        font-size: 7px;
+    }
+
+    .companyName {
+        padding-right: 5px;
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .companyName {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .companyName {
+        font-size: 10px;
+    }
+
+    .backCall {
+        font-size: 8px;
+    }
+}

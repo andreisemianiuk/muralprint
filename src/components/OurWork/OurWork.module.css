@@ -1,0 +1,21 @@
+.ourWorkContainer {
+    margin: 25px 0;
+    width: 100%;
+}
+
+.ourWorkWrapper {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.sliderContainer {
+    border: 1px solid black;
+    padding-top: 6px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 100px;
+    height: 300px;
+    padding: 0 10px;
+}

@@ -1,0 +1,48 @@
+.navBarContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+.navLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f50057;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.navLink:nth-child(-n+4) {
+    margin-right: 5px;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid #21344A;
+    color: #ff0057;
+}
+
+@media screen and (max-width: 840px ) {
+    .navLink {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    .navLink {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navLink {
+        font-size: 7px;
+    }
+}

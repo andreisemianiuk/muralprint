@@ -1,0 +1,121 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.businessBoxContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 178px);
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+.accordionWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.textWrapper {
+    margin-right: 170px;
+}
+
+.businessBoxWrapper {
+    width: 80%;
+}
+
+.blockInfoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 600px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.price {
+    background-color: #f50057;
+    padding: 2px 10px;
+    color: white;
+    margin-left: 5px
+}
+
+.blockInfoContainer {
+
+}
+
+.blockInfo {
+
+}
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.priceAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.priceAllText {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.descriptionContainer {
+    display: flex;
+
+}
+
+.firstDescription {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.number {
+    background-color: #f50057;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: white;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.span {
+    margin-bottom: 15px;
+    white-space: pre-line
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        display: none;
+    }
+}

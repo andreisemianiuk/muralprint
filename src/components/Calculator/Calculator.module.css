@@ -1,0 +1,138 @@
+.modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.radioSelect {
+	display: none;
+}
+
+.inputsWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: 30px;
+}
+
+.radioSelect:disabled + .label {
+	opacity: 0.3;
+	cursor: default;
+	background: none;
+	color: #21344A;
+}
+
+.radioSelect:checked + .label {
+	background-color: #f50057;
+	border: 1px solid black;
+	padding: 5px 10px;
+	color: white;
+}
+
+.label {
+	background-color: white;
+	border: 1px solid #21344A;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.title {
+	margin-bottom: 7px;
+}
+
+.label:hover {
+	opacity: 0.6;
+	background-color: #f50057;
+	border: 1px solid black;
+	padding: 5px 10px;
+	cursor: pointer;
+	color: white;
+}
+
+.calculator {
+	margin-top: 20px;
+}
+
+.infoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.buttonsWrapper {
+	display: flex;
+}
+
+.giftBoxContainer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.buttonsGiftBoxPackWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.giftBoxBtn {
+	margin-top: 5px;
+	width: 90px;
+	border-radius: 50%;
+}
+
+.price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0 10px 0;
+}
+
+.sumInfo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 20px;
+}
+
+.submitBtn {
+	height: 35px;
+	width: 120px;
+}
+
+@media screen and (max-width: 800px) {
+	.inputsWrapper {
+		margin-right: 0;
+	}
+
+	.giftBoxContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.buttonsWrapper {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.label {
+		margin-right: 0;
+		margin-bottom: 5px;
+		padding: 3px 8px;
+		border-radius: 5px;
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.title {
+		font-size: 12px;
+	}
+
+	.price {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 40px;
+	}
+}

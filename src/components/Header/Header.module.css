@@ -1,0 +1,125 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px 70px;
+}
+
+.logoContainer {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mural {
+    color: #f05;
+}
+
+.logoContainer:hover {
+    cursor: pointer;
+    text-shadow: #949494 1px 0 5px;
+}
+
+.aboutCompany {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+
+.cartContainer {
+    color: #f05;
+}
+
+.cartContainer:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 1025px){
+  .aboutCompany {
+      margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 990px ) {
+    .aboutCompany {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 50px;
+        margin-right: 0;
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 700px ) {
+    .headerContainer {
+        padding: 10px 30px;
+    }
+    .aboutCompany {
+        padding-left: 20px;
+    }
+    .logoContainer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 530px ) {
+    .headerContainer {
+        padding: 10px 10px;
+    }
+    .aboutCompany {
+        padding-left: 10px;
+    }
+    .logoContainer {
+       width: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cartName {
+        font-size: 12px;
+    }
+    .logoContainer {
+        font-size: 14px;
+    }
+    .logo {
+        width: 16px;
+        height: 16px;
+    }
+
+    .cartName {
+        font-size: 10px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .headerContainer {
+        padding: 10px 5px;
+    }
+    .logoContainer {
+        font-size: 10px;
+    }
+    .aboutCompany {
+        padding-left: 0;
+    }
+    .description {
+        font-size: 10px;
+        padding-left: 0;
+    }
+    .cartName {
+        font-size: 10px;
+    }
+}

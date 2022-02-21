@@ -1,0 +1,40 @@
+.container {
+	min-height: 70vh;
+}
+
+.title {
+	padding-top: 50px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border: 1px solid #21344A;
+	border-radius: 5px;
+	background-color: #005d7c;
+	color: #f3f3f3;
+	margin: 10px;
+	padding: 10px;
+}
+
+.sum {
+	font-size: 1.6em;
+	margin-left: 30px;
+}
+
+.buttonWrapper {
+	margin: 20px 0 30px 30px;
+	height: 50px;
+}
+
+.btn:hover {
+	font-size: 1.1em;
+}
+
+.modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

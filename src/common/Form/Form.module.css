@@ -1,0 +1,71 @@
+.formContainer {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    border: 1px solid #21344A;
+    border-radius: 5px;
+    width: 400px;
+    min-height: 392px;
+    margin: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.writeMe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactChoice {
+    display: flex;
+}
+
+.wayOfCommunicationWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.order {
+    margin-top: 20px;
+}
+
+.circularProgress {
+    margin: 150px auto 0 auto;
+}
+
+
+.nativeSelect {
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    text-indent: 0;
+}
+
+.option {
+}
+
+@media screen and (max-width: 600px) {
+    .formContainer {
+        width: 326px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .formContainer {
+        width: 300px;
+    }
+}
